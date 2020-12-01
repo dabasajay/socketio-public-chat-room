@@ -11,3 +11,5 @@ Socket.io, vuejs, and nodejs based public chat room that I build for my _Compute
 <p align="center">
   <img src="https://github.com/dabasajay/pluto/raw/master/imgs/chat.png" width="80%" title="Chat Screen" alt="Chat Screen">
 </p>
+
+Background Image Credits: <span>Photo by <a href="https://unsplash.com/@lunarts?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Volodymyr Hryshchenko</a> on <a href="https://unsplash.com/s/photos/chat?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
