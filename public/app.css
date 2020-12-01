@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: 'Ubuntu', 'Roboto', 'Oxygen', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('./background.jpg');
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  width: auto;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+#app {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.NameCard {
+  height: 230px;
+  width: 500px !important;
+  background-color: #ffcc01;
+  border: 15px solid #fda202;
+  border-radius: 40px;
+  color: #2d4f26;
+}
+
+.ContentCard {
+  height: 500px;
+}
+
+.ChatCard {
+  height: 330px;
+  background-color: #ffcc01;
+  border: none;
+  padding-bottom: 20px;
+}
+
+.ChatCard > .card-body {
+  padding: 0;
+  overflow-y: auto;
+}
+
+.ChatCard__input,
+.ChatCard__input:active,
+.ChatCard__input:focus,
+.ChatCard__input:focus-within,
+.ChatCard__input:hover {
+  border-radius: 40px;
+  box-shadow: none;
+  border: none;
+  background-color: #33724c;
+  color: white;
+}
+
+.ChatCard__input::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+.ChatCard__message {
+  background-color: #ffcc01;
+  border: none;
+}
+
+.ChatCard__message-content {
+  background-color: #33724c;
+  color: white;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.ContentCard .form-group {
+  margin: 0 !important;
+}
+
+.ContentCard__istyping {
+  color: #b44d04;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #33724c;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2d4f26; 
+}
